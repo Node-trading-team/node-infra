@@ -1,13 +1,13 @@
 ---
-name: Feature request
-about: 새로운 기능을 추가합니다.
+name: Refactor issue
+about: 코드를 리팩터링합니다.
 title: ''
-labels: feature
+labels: refactor
 assignees: ''
 
 ---
 
-## 구현할 기능
+## 리팩터링할 부분
 
 ## 작업 상세 내용
 

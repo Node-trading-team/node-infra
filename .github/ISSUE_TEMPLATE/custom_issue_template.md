@@ -1,5 +1,5 @@
 ---
-name: Custom request
+name: Custom issue
 about: 기타 작업에 대한 이슈
 title: ''
 labels: ''
