@@ -1,3 +1,6 @@
+## 서브모듈 적용
+`git submodule update --remote`
+
 ## 작업 디렉터리 초기화
 `terraform init`
 
