@@ -1,0 +1,18 @@
+#!/bin/bash
+
+sudo yum update -y
+sudo yum install -y docker
+
+sudo systemctl start docker
+sudo systemctl enable docker
+
+sudo usermod -a -G docker ec2-user
+
+sudo docker run \
+  -d \
+  --name mongodb \
+  --restart always \
+  -p 27017:27017 \
+  -e MONGO_INITDB_ROOT_USERNAME=${mongo_user} \
+  -e MONGO_INITDB_ROOT_PASSWORD=${mongo_password} \
+  mongo:7.0
