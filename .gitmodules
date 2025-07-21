@@ -1,0 +1,3 @@
+[submodule "terraform/secret"]
+	path = terraform/secret
+	url = https://github.com/Node-trading-team/node-secret.git
