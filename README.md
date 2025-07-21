@@ -2,10 +2,10 @@
 `terraform init`
 
 ## 실행 계획
-`terraform plan`
+`terraform plan -var-file="secret/terraform.tfvars"`
 
 ## 리소스 생성
-`terraform apply`
+`terraform apply -var-file="secret/terraform.tfvars"`
 
 ## 리소스 해제
-`terraform destroy`
+`terraform destroy -var-file="secret/terraform.tfvars"`
